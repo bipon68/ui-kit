@@ -1,0 +1,12 @@
+HTTrack3.48-19+htsswf+htsjava launched on Sat, 04 Apr 2015 14:42:24 at http://ashobiz.asia/boot-extended12/ui/ui-264.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://ashobiz.asia/boot-extended12/ui/ui-264.html -O1 "J:\BootExtend\B\MINI RESUME\CHART BLOCK (Skill Unique style)" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:43:11	Warning: 	Retry after error -4 (Connect Error) at link ashobiz.asia/boot-extended12/ui/fonts/fontawesome-webfont.woff?v=4.3.0 (from ashobiz.asia/boot-extended12/ui/css/font-awesome.min.css)
+
+HTTrack Website Copier/3.48-19 mirror complete in 1 minutes 0 seconds : 18 links scanned, 16 files written (973829 bytes overall) [975436 bytes received at 16257 bytes/sec], 4764 bytes transferred using HTTP compression in 2 files, ratio 28%, 1.4 requests per connection
+(No errors, 1 warnings, 0 messages)

@@ -1,0 +1,11 @@
+HTTrack3.48-19+htsswf+htsjava launched on Sat, 04 Apr 2015 14:56:39 at http://ashobiz.asia/boot-extended12/ui/ui-272.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://ashobiz.asia/boot-extended12/ui/ui-272.html -O1 "J:\BootExtend\B\MINI RESUME\BLOG NAV TAB (Unieque)" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.48-19 mirror complete in 2 minutes 11 seconds : 30 links scanned, 29 files written (2644166 bytes overall) [2631384 bytes received at 20086 bytes/sec], 23248 bytes transferred using HTTP compression in 2 files, ratio 8%, 1.2 requests per connection
+(No errors, 0 warnings, 0 messages)

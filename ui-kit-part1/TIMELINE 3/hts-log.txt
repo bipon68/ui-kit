@@ -1,0 +1,13 @@
+HTTrack3.48-19+htsswf+htsjava launched on Sat, 21 Mar 2015 02:55:04 at http://ashobiz.asia/boot-extended11/demo/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://ashobiz.asia/boot-extended11/demo/ -O1 "J:\BootExtend\SLIDING STATUS\TIMELINE 3" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+03:01:35	Warning: 	Retry after error -2 (Receive Time Out) at link ashobiz.asia/boot-extended11/demo/ui/173.png (from ashobiz.asia/boot-extended11/demo/)
+03:01:38	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended11/demo/js/custom.js (from ashobiz.asia/boot-extended11/demo/)
+
+HTTrack Website Copier/3.48-19 mirror complete in 6 minutes 42 seconds : 298 links scanned, 295 files written (3466527 bytes overall) [3443661 bytes received at 8566 bytes/sec], 113806 bytes transferred using HTTP compression in 4 files, ratio 8%, 2.7 requests per connection
+(1 errors, 1 warnings, 0 messages)

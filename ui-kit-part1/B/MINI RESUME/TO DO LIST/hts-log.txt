@@ -1,0 +1,25 @@
+HTTrack3.48-19+htsswf+htsjava launched on Sat, 04 Apr 2015 13:03:47 at http://ashobiz.asia/boot-extended12/ui/ui-172.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://ashobiz.asia/boot-extended12/ui/ui-172.html -O1 "J:\BootExtend\B\MINI RESUME\TO DO LIST" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-bg_glass_100_f6f6f6_1x400.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-bg_glass_100_fdf5ce_1x400.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-bg_glass_65_ffffff_1x400.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-icons_222222_256x240.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-icons_ffffff_256x240.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-icons_ef8c08_256x240.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-icons_228ef1_256x240.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-icons_ffd27a_256x240.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-bg_diagonals-thick_20_666666_40x40.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+13:04:28	Error: 	"Not Found" (404) at link ashobiz.asia/boot-extended12/ui/css/images/ui-bg_flat_10_000000_40x100.png (from ashobiz.asia/boot-extended12/ui/css/jquery-ui.min.css)
+
+HTTrack Website Copier/3.48-19 mirror complete in 41 seconds : 32 links scanned, 17 files written (1243264 bytes overall) [1252497 bytes received at 30548 bytes/sec], 10179 bytes transferred using HTTP compression in 16 files, ratio 52%, 2.4 requests per connection
+(14 errors, 0 warnings, 0 messages)

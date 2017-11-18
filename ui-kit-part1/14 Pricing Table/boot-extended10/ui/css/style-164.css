@@ -1,0 +1,217 @@
+/************************
+Designed by : http://responsivewebinc.com
+************************/
+/* Open Sans  */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600');
+/* General */
+body {
+	color: #666666;
+	font-size: 13px;
+	line-height: 23px;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+a{
+	text-decoration: none;
+	color: #777;
+}
+a:hover,a:active,a:focus {
+	outline: 0;
+	text-decoration: none;
+	color: #999;
+}
+hr {
+	margin: 10px 0px;
+	padding: 0px;
+	border-top: 0px;
+	border-bottom: 1px solid #eee;
+}
+:focus {
+	outline:none;
+}
+::-moz-focus-inner {
+	border:0;
+}
+/* Text color classes */
+.white {
+  color: #ffffff !important;
+}
+.grey {
+  color: #eeeeee !important;
+}
+.black {
+  color: #555555 !important;
+}
+.red {
+  color: #f75353 !important;
+}
+.green {
+  color: #51d466 !important;
+}
+.lblue {
+  color: #32c8de !important;
+}
+.blue {
+  color: #609cec !important;
+}
+.orange {
+  color: #f78153 !important;
+}
+.yellow {
+  color: #fcd419 !important;
+}
+.purple {
+  color: #cb79e6 !important;
+}
+.rose {
+  color: #ff61e7 !important;
+}
+.brown {
+  color: #d08166 !important;
+}
+/* Background color classes */
+.bg-white {
+  background-color: #ffffff !important;
+}
+.bg-grey {
+  background-color: #eeeeee !important;
+}
+.bg-black {
+  background-color: #555555 !important;
+}
+.bg-red {
+  background-color: #f75353 !important;
+}
+.bg-green {
+  background-color: #51d466 !important;
+}
+.bg-lblue {
+  background-color: #32c8de !important;
+}
+.bg-blue {
+  background-color: #609cec !important;
+}
+.bg-orange {
+  background-color: #f78153 !important;
+}
+.bg-yellow {
+  background-color: #fcd419 !important;
+}
+.bg-purple {
+  background-color: #cb79e6 !important;
+}
+.bg-rose {
+  background-color: #ff61e7 !important;
+}
+.bg-brown {
+  background-color: #d08166 !important;
+}
+/* Border color classes */
+.br-white {
+  border: 1px solid #ffffff !important;
+}
+.br-grey {
+  border: 1px solid #eeeeee;
+}
+.br-black {
+  border: 1px solid #555555;
+}
+.br-red {
+  border: 1px solid #f75353;
+}
+.br-green {
+  border: 1px solid #51d466;
+}
+.br-lblue {
+  border: 1px solid #32c8de;
+}
+.br-blue {
+  border: 1px solid #609cec;
+}
+.br-orange {
+  border: 1px solid #f78153;
+}
+.br-yellow {
+  border: 1px solid #fcd419;
+}
+.br-purple {
+  border: 1px solid #cb79e6;
+}
+.br-rose {
+  border: 1px solid #ff61e7;
+}
+.br-brown {
+  border: 1px solid #d08166;
+}
+/* Button classes */
+.btn {
+	border-radius: 2px;
+	position: relative;
+}
+.btn.btn-no-border {
+	border: 0px !important;
+}
+
+
+/* UI X */
+body{
+	background:#f4f8fd;
+}
+.price-container{
+	margin:40px auto;
+	padding:0px 20px;
+	max-width:700px;
+}
+.price-container .ui-item{
+	padding:25px 40px;
+	box-shadow:inset 0px 0px 0px 1px rgba(0,0,0,0.06);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;	
+	position:relative;
+	background:#fcfcfc;
+	margin:0px 0px;
+}
+.price-container .ui-item{
+	border-width:0px;
+	border-top-width:2px;
+}
+.price-container .ui-item:hover{
+	background:#fff;
+}
+.price-container .ui-item h2{
+	font-size:20px;
+	line-height:30px;
+	font-weight:400;
+	margin-bottom:5px;
+}
+.price-container .ui-item h2 i{
+	margin:0px 3px;
+	font-size:13px;
+	position:relative;
+	top:-2px;
+}
+.price-container .ui-item p{
+	font-size:14px;
+	line-height:28px;
+	font-weight:600;
+	color:rgba(0,0,0,0.35);
+}
+.price-container .ui-item a.buy{
+	position:absolute;
+	top:45px;
+	right:40px;
+	font-size:22px;
+	line-height:22px;
+}
+@media (max-width:600px){
+	.price-container .ui-item a.buy{
+		position:static;
+		display:inline-block;
+		margin-top:5px;
+	}
+}
