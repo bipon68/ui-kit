@@ -1,0 +1,273 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  padding: 3em;
+}
+header h1 {
+  font-size: 20px;
+  color: #2f889a;
+  text-align: center;
+  line-height: 1.2;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 5em;
+  }
+  header h1 {
+    font-size: 28px;
+    font-weight: 300;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  header {
+    padding: 8em 0 6em;
+  }
+  header h1 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+}
+
+.cd-svg-container {
+  width: 90%;
+  max-width: 200px;
+  margin: 0 auto 100px;
+}
+.cd-svg-container svg {
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+}
+.no-js .cd-svg-container {
+  height: 200px;
+  background: url("../img/cd-icon.svg") no-repeat center center;
+}
+.no-js .cd-svg-container svg {
+  display: none;
+}
+
+/* -------------------------------- 
+
+xnugget info 
+
+-------------------------------- */
+.cd-nugget-info {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  top: 0;
+  left: 0;
+}
+.cd-nugget-info a {
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+  color: #A84D54;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.no-touch .cd-nugget-info a:hover {
+  opacity: .8;
+}
+.cd-nugget-info span {
+  vertical-align: middle;
+  display: inline-block;
+}
+.cd-nugget-info span svg {
+  display: block;
+}
+.cd-nugget-info .cd-nugget-info-arrow {
+  fill: #A84D54;
+}
+
+/* -------------------------------- 
+
+xcarbonads 
+
+-------------------------------- */
+#carbonads-container {
+  position: fixed;
+  top: 40px;
+  right: 5%;
+  width: 180px;
+  display: none;
+}
+#carbonads-container .close-carbon-adv {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background: rgba(34, 52, 67, 0.8);
+  text-indent: 100%;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+}
+#carbonads-container .close-carbon-adv:hover {
+  background: #223443;
+}
+#carbonads-container .close-carbon-adv::after, #carbonads-container .close-carbon-adv::before {
+  content: '';
+  background-color: #fff;
+  height: 2px;
+  width: 14px;
+  position: absolute;
+  top: 14px;
+  left: 9px;
+}
+#carbonads-container .close-carbon-adv::after {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#carbonads-container .close-carbon-adv::before {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#carbonads-container .carbonad {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  width: 100%;
+  height: auto;
+  padding: 14px;
+  text-align: center;
+  border-radius: 0 3px 3px 3px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+#carbonads-container .carbonad .carbonad-image img {
+  margin: 0 0 10px 10px;
+}
+#carbonads-container .carbonad .carbonad-text, #carbonads-container .carbonad .carbonad-tag {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+#carbonads-container .carbonad .carbonad-text {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+#carbonads-container .carbonad .carbonad-text a {
+  color: #A84D54;
+  font-size: 13px;
+  font-weight: bold;
+}
+.no-touch #carbonads-container .carbonad .carbonad-text a:hover {
+  text-decoration: underline;
+}
+#carbonads-container .carbonad .carbonad-tag {
+  margin-top: 5px;
+  color: #223443;
+}
+#carbonads-container .carbonad .carbonad-tag a {
+  color: #223443;
+}
+#carbonads-container .carbonad .carbonad-tag a:hover {
+  color: #D7DCE0;
+}
+@media only screen and (min-width: 1170px) {
+  #carbonads-container {
+    display: block;
+  }
+}
+
+/* -------------------------------- 
+
+Manage colors
+
+-------------------------------- */
+.cd-stroke {
+  fill: none;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.cd-stroke-color-1 {
+  stroke: #223443;
+  fill: #f8f8f8;
+}
+.cd-stroke-color-1#floor {
+  fill: none;
+}
+
+.cd-stroke-color-2 {
+  stroke: #D7DCE0;
+}
+
+.cd-stroke-color-3 {
+  stroke: #A84D54;
+}
+
+.cd-fill-color-1 {
+  fill: #223443;
+}
+
+.cd-pointer {
+  fill: #FFFFFF;
+  opacity: 0;
+}
+
+/* -------------------------------- 
+
+Main elements - Loading
+
+-------------------------------- */
+#cd-loading {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+#cd-loading.fade-out {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+#cd-play-btn, #cd-pause-btn {
+  cursor: pointer;
+}
+
+#cd-pause-btn {
+  pointer-events: none;
+}
+
+.play-is-clicked #cd-pause-btn {
+  pointer-events: auto;
+}
+
+/* -------------------------------- 
+
+Main elements - Buildings 
+
+-------------------------------- */
+#cd-home-1-chimney, #cd-home-3-roof {
+  visibility: hidden;
+}
