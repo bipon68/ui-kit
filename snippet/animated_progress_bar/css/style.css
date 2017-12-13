@@ -1,0 +1,106 @@
+ .progress{
+	border-radius: 20px;
+	height: 25px;
+}
+.skill-name{
+	text-transform: uppercase;
+	margin-left: 10px;
+	padding-left:10px;
+	padding-top: 2.5px;
+	float:left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+}
+
+.progress .progress-bar, .progress .progress-bar.progress-bar-default {
+    background-color: #46a546 ;
+}
+.progress  .progress-bar{
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1.0s;
+}
+
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+/*media Queries*/
+
+@media (min-width: 768px) and (max-width: 991px){
+	#about-section h1{font-size: 2.0em;}
+	.nav-pills li a{font-size: 1.3em !important;}
+
+
+}
+
+
+@media (max-width: 767px){
+	#about-section h1{
+		margin-top: 90px !important;
+		font-size: 1.5em;}
+	.nav-pills li a{font-size: 1.3em !important;}
+	.about-me-text{font-size: 1.0em;}
+	.btn-tab .btn-overide{font-size: 0.8em;
+		width: 200px;
+	}
+	#about-section{
+		height: 750px;
+	}
+	#about-section h1{
+	margin-top: 50px;
+	
+}
+}
+@media (max-width: 456px){
+	#about-section{
+		height: 730px;
+	}
+	.nav-pills li a{font-size: 0.9em !important;}
+}
+
+@media(max-width: 648px){
+	#about-section{
+		height: 800px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 553px){
+	#about-section{
+		height: 900px;
+	}
+}
+
+@media (max-width: 479px){
+	.btn-hire{
+		margin-top: 20px!important;
+		
+	}
+	.btn-contact{
+		margin-top: 10px !important;
+	}
+
+	#about-section{
+		height: 950px;
+	}
+}
+
+@media (max-width: 442px){
+	#about-section{
+		height: 980px;
+	}
+}
+
+@media (max-width: 411px){
+	#about-section{
+		height: 1020px;
+	}
+}
+
+@media (max-width: 373px){
+	#about-section{
+		height: 1050px;
+	}
+}

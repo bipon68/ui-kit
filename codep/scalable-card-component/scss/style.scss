@@ -1,0 +1,178 @@
+/**
+ * Author: Kris Olszewski
+ * CodePen: https://codepen.io/KrisOlszewski/full/Jodjbd/
+ */
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  padding: 5vw 15vw;
+  background-color: #E6E9ED;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin: 0;
+}
+
+/**
+ * Component: Card
+ * --------------------------------------------------
+ */
+
+.c-card {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: percentage(3/4);
+  border-radius: 1vw;
+  background-color: #fff;
+}
+
+/**
+ * Image copyright: Adam Osinski
+ * https://www.facebook.com/plywanie
+ */
+
+.c-card__header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  padding-bottom: percentage(9/16);
+  background-color: #5D9CEC;
+  background-image: url("http://www.kolszewski.com/images/swimming.jpg?v5");
+  background-size: cover;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 150%;
+    height: 100%;
+    background-color: #fff;
+    transform: rotate(-5deg);
+    transform-origin: 0 0;
+  }
+}
+
+.c-card__title {
+  font-size: 6vw;
+  font-weight: 300;
+  line-height: 1;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  left: 6.25%;
+  width: 75%;
+  padding-bottom: 9%;
+  color: #fff;
+  text-transform: uppercase;
+  transform: rotate(-5deg);
+  transform-origin: 0 0;
+}
+
+.c-card__content {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: percentage(3/16);
+}
+
+.c-card__details {
+  position: absolute;
+  top: 50%;
+  right: 6.25%;
+  left: 6.25%;
+  margin: 0;
+  transform: translateY(-50%);
+}
+
+.c-card__description,
+.c-card__amount {
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 1;
+  color: #656D78;
+}
+
+.c-card__description {
+  float: left;
+}
+
+.c-card__amount {
+  float: right;
+}
+
+/**
+ * Component: Button
+ * --------------------------------------------------
+ */
+
+.c-button {
+  -webkit-appearance: none;
+  margin: 0;
+  border: 0;
+  overflow: visible;
+  font: inherit;
+  text-transform: none;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  text-align: center;
+  user-select: none;
+  &:hover,
+  &:focus {
+    outline: none;
+    text-decoration: none;
+  }
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+/**
+ * Component: Button
+ * Modifier: Dropdown
+ * --------------------------------------------------
+ */
+
+.c-button--join {
+  position: absolute;
+  right: 6.25%;
+  bottom: 0;
+  z-index: 10;
+  background-color: #5D9CEC;
+  padding: 2vw 3vw;
+  color: #E6E9ED;
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 0.5vw;
+  transition: background-color .2s linear;
+  transform: rotate(-5deg);
+  transform-origin: 0 0;
+  &:hover {
+    background-color: #4A89DC;
+  }
+}
